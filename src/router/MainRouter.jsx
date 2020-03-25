@@ -5,6 +5,7 @@ import Header from '../components/Header';
 
 import HomePage from '../pages/HomePage';
 import GalleryPage from '../pages/GalleryPage';
+import AboutPage from '../pages/AboutPage';
 
 const MainRouter = () => {
     return ( 
@@ -17,6 +18,9 @@ const MainRouter = () => {
                     </Route>
                     <Route path="/gallery">
                         <GalleryPage />
+                    </Route>
+                    <Route path="/about">
+                        <AboutPage/>
                     </Route>
                 </Switch>
             </BrowserRouter>

@@ -21,6 +21,14 @@ const Header = () => {
         >
           Gallery
         </NavLink>
+
+        <NavLink 
+          to="/about"
+          className="link"
+          activeClassName="active-link"
+        >
+          About
+        </NavLink>
       </nav>
     </header>
   )
